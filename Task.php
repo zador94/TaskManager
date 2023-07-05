@@ -2,20 +2,11 @@
 
 class Task
 {
-    private static $lastId = 1;
-    private int $id;
     public function __construct(private string $nameTask,
                                 private string $descriptionTask,
                                 private string $dateTask,
                                 private string $statusTask)
     {
-        $this->id = self::$lastId++;
-    }
-
-
-    public function getId(): int
-    {
-        return $this->id;
     }
 
 
