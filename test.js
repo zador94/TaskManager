@@ -47,7 +47,7 @@ $(document).ready(function() {
                     html += '<td>' + result[i].dateTask + '</td>';
                     html += '<td>' + result[i].statusTask + '</td>';
                     html += '<td><button onclick="deleteTask(' + result[i].id + ')">Удалить</button></td>';
-                    html += '<td><button onclick="changeStatus(' + result[i].id + ', \'' + result[i].statusTask + '\')">Change Status</button></td>';
+                    html += '<td><button onclick="changeStatus(' + result[i].id + ', \'' + result[i].statusTask + '\')">Изменить статус</button></td>';
                     html += '</tr>';
                 }
 
