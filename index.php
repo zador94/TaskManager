@@ -10,7 +10,7 @@ include 'splAutoloadRegister.php';
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <link rel="stylesheet" type="text/css" href="styles.css">
     <script type="text/javascript" src="//ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
-    <script type="text/javascript" src="test.js"></script>
+    <script type="text/javascript" src="scriptTaskController.js"></script>
     <title>Document</title>
 </head>
 <body>

@@ -35,8 +35,7 @@ class TaskController
 
     public function delete(int $id)
     {
-        $this->dto->delete($id);
-        echo json_encode($this->dto->delete($id));
+        echo $this->dto->delete($id);
     }
 }
 

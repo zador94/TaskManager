@@ -57,6 +57,5 @@ class DataBaseMySQL implements IDataTransfer
         $stmt->bindValue (":userid", $_POST["id"]);
         $stmt->execute();
         return 'Данные удалены';
-
     }
 }
